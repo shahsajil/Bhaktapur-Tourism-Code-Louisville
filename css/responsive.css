@@ -1,0 +1,165 @@
+
+/* start of media query of max width 991.98px */
+
+@media (max-width: 991.98px) {
+
+  .logo {
+     font-size:1.5em;
+     padding: 1.1em 0;
+     }
+
+   .logo em {
+     font-size: 15px;
+   }
+
+   .menu {
+     padding-left: 0;
+   }
+
+   .lanm-bkt h3 {
+      font-size: 1em;
+    }
+
+   .intro-footer h3 {
+     font-size: 21px;
+    }
+
+    .ft-cpyrgt {
+      padding-left: 1em;
+    }
+
+    .footer-menu li {
+      padding-left: 9px;
+    }
+}
+/* end of media query of max width 991.98px */
+
+
+/* start of media query of max width 767.98px */
+
+@media (max-width: 767.98px) {
+
+      .logo {
+         font-size:2em;
+         float: none;
+         text-align: center;
+         }
+
+       .logo em {
+         font-size: 16px;
+       }
+
+      .menu {
+          padding-left: 0;
+          float: none;
+          text-align: center;
+          margin-bottom: 1em;
+      }
+
+      .menu li {
+         display: block;
+         padding-left:0;
+      }
+     .menu li a {
+         padding: .5em 0;
+      }
+
+      #main-content {
+      padding-top: 286px;
+      }
+
+      .slick-slide img {
+      height: 350px;
+      }
+
+      .introduction h2 {
+          font-size: 1.5em;
+      }
+
+      .introduction {
+          padding: 1.5em 0;
+          text-align: center;
+      }
+
+      .lightboxgallery-gallery-item img {
+        height: 84px;
+      }
+
+      .bkt-map {
+        margin-top: 2em;
+      }
+   /* footer media query */
+
+       .intro-footer h3 {
+           float:none;
+           padding: 12px 0;
+           display: block;
+           text-align:center;
+         }
+
+       .footer-menu li a, .intro-footer p {
+           font-size: 14px;
+         }
+
+       .ft-cpyrgt {
+           padding-left: 0em;
+           text-align: center;
+       }
+
+       .footer-menu li {
+          padding-left: .5em;
+       }
+
+       .socailsite-footer {
+           float: none;
+           text-align: center;
+       }
+
+       .socailsite-footer li {
+           padding: 0.5em 0 1em 1em;
+       }
+}
+/* end of media query of max width 767.98px */
+
+
+/* start of media query of max width 575px */
+
+@media (max-width: 575px){
+        /* media query for logo and menu section */
+        body {
+          font-size: 14px;
+          }
+       .logo {
+          font-size:2em;
+          float: none;
+          text-align: center;
+          }
+
+        .logo em {
+          font-size: 16px;
+        }
+
+      .menu {
+           padding-left: 0;
+           float: none;
+           text-align: center;
+           margin-bottom: 1em;
+      }
+
+      .menu li {
+          display: block;
+          padding-left:0;
+      }
+      .menu li a {
+          padding: .5em 0;
+      }
+
+      .slick-slide img {
+      height: 350px;
+      }
+
+      .lightboxgallery-gallery-item {
+          width: 50%;
+      }
+ }
+ /* end of media query of max width 575px */
