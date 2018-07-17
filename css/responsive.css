@@ -39,7 +39,11 @@
 
 @media (max-width: 767.98px) {
 
-      .logo {
+          header {
+          position: absolute;
+        }
+        
+        .logo {
          font-size:2em;
          float: none;
          text-align: center;
