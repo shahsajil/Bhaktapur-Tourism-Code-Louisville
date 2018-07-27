@@ -24,3 +24,23 @@ jQuery(document).ready(function($) {
       });
 
     });
+
+//js code for modal-content of facebook icon
+
+document.getElementById('fb-button').addEventListener('click',
+function() {
+  $('body').toggleClass('open-modal');
+  document.querySelector('.fb-modal').style.display = 'flex';
+});
+
+document.querySelector('.cancel').addEventListener('click',
+function() {
+  $('body').toggleClass('open-modal');
+  document.querySelector('.fb-modal').style.display = 'none';
+});
+
+document.querySelector('.modal-button').addEventListener('click',
+function() {
+  $('body').toggleClass('open-modal');
+  document.querySelector('.fb-modal').style.display = 'none';
+});
